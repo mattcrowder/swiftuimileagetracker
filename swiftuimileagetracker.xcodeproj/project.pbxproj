@@ -15,6 +15,7 @@
 		E6E20FF623A809EB008FD313 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6E20FF423A809EB008FD313 /* LaunchScreen.storyboard */; };
 		E6E2100123A809EB008FD313 /* swiftuimileagetrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E2100023A809EB008FD313 /* swiftuimileagetrackerTests.swift */; };
 		E6E2100C23A809EB008FD313 /* swiftuimileagetrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E2100B23A809EB008FD313 /* swiftuimileagetrackerUITests.swift */; };
+		E6E2101A23A8225E008FD313 /* HealthKitUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E2101923A8225E008FD313 /* HealthKitUtilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		E6E2100723A809EB008FD313 /* swiftuimileagetrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftuimileagetrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6E2100B23A809EB008FD313 /* swiftuimileagetrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftuimileagetrackerUITests.swift; sourceTree = "<group>"; };
 		E6E2100D23A809EB008FD313 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6E2101923A8225E008FD313 /* HealthKitUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitUtilities.swift; sourceTree = "<group>"; };
+		E6E2101C23A82609008FD313 /* swiftuimileagetracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = swiftuimileagetracker.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +82,7 @@
 		E6E20FDD23A809E9008FD313 = {
 			isa = PBXGroup;
 			children = (
+				E6E2101C23A82609008FD313 /* swiftuimileagetracker.entitlements */,
 				E6E20FE823A809E9008FD313 /* swiftuimileagetracker */,
 				E6E20FFF23A809EB008FD313 /* swiftuimileagetrackerTests */,
 				E6E2100A23A809EB008FD313 /* swiftuimileagetrackerUITests */,
@@ -106,6 +110,7 @@
 				E6E20FF423A809EB008FD313 /* LaunchScreen.storyboard */,
 				E6E20FF723A809EB008FD313 /* Info.plist */,
 				E6E20FF123A809EB008FD313 /* Preview Content */,
+				E6E2101923A8225E008FD313 /* HealthKitUtilities.swift */,
 			);
 			path = swiftuimileagetracker;
 			sourceTree = "<group>";
@@ -267,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6E2101A23A8225E008FD313 /* HealthKitUtilities.swift in Sources */,
 				E6E20FEA23A809E9008FD313 /* AppDelegate.swift in Sources */,
 				E6E20FEC23A809E9008FD313 /* SceneDelegate.swift in Sources */,
 				E6E20FEE23A809E9008FD313 /* ContentView.swift in Sources */,
@@ -434,6 +440,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = swiftuimileagetracker.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"swiftuimileagetracker/Preview Content\"";
 				DEVELOPMENT_TEAM = W45K5P6KGN;
@@ -454,6 +461,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = swiftuimileagetracker.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"swiftuimileagetracker/Preview Content\"";
 				DEVELOPMENT_TEAM = W45K5P6KGN;

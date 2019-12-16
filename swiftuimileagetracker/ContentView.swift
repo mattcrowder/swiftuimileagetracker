@@ -37,7 +37,6 @@ struct Distance: View {
             }
             
         }
-        
     }
 }
 
@@ -50,11 +49,21 @@ struct ContentView: View {
     ]
 
     var body: some View {
-        
-        List(0 ..< distances.count) { index in
-            Distance(self.distances[index])
-        }
-        
+        NavigationView {
+            List(0 ..< distances.count) { index in
+                Distance(self.distances[index])
+            }.navigationBarTitle("Distance Buddy")
+        }.onAppear(perform: healthkitAuthorize)
+    }
+    
+    private func healthkitAuthorize() {
+        authorizeHealthKit(completion: { (success, error) in
+            if success {
+                
+            } else if error != nil {
+                
+            }
+        })
     }
 }
 
