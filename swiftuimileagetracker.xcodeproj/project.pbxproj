@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18E51AC9CB4C68A66C84F449 /* Pods_swiftuimileagetrackerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A15FB86C16A2A019E30A120F /* Pods_swiftuimileagetrackerUITests.framework */; };
+		698FBA29BB8DFBA262CFC1B3 /* Pods_swiftuimileagetrackerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3944E8901B37AA35BDFF3427 /* Pods_swiftuimileagetrackerTests.framework */; };
+		8E42F5611BE97BEF2DDD83B9 /* Pods_swiftuimileagetracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7845F0301EB8C2B02C872839 /* Pods_swiftuimileagetracker.framework */; };
 		E6E20FEA23A809E9008FD313 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E20FE923A809E9008FD313 /* AppDelegate.swift */; };
 		E6E20FEC23A809E9008FD313 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E20FEB23A809E9008FD313 /* SceneDelegate.swift */; };
 		E6E20FEE23A809E9008FD313 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E20FED23A809E9008FD313 /* ContentView.swift */; };
@@ -16,6 +19,7 @@
 		E6E2100123A809EB008FD313 /* swiftuimileagetrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E2100023A809EB008FD313 /* swiftuimileagetrackerTests.swift */; };
 		E6E2100C23A809EB008FD313 /* swiftuimileagetrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E2100B23A809EB008FD313 /* swiftuimileagetrackerUITests.swift */; };
 		E6E2101A23A8225E008FD313 /* HealthKitUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E2101923A8225E008FD313 /* HealthKitUtilities.swift */; };
+		E6E2101E23A8279E008FD313 /* DistanceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E2101D23A8279E008FD313 /* DistanceModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D6EA77E912875B4634ACBAC /* Pods-swiftuimileagetrackerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftuimileagetrackerUITests.release.xcconfig"; path = "Target Support Files/Pods-swiftuimileagetrackerUITests/Pods-swiftuimileagetrackerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		235C18DCC790AE4E7265D075 /* Pods-swiftuimileagetrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftuimileagetrackerTests.debug.xcconfig"; path = "Target Support Files/Pods-swiftuimileagetrackerTests/Pods-swiftuimileagetrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3944E8901B37AA35BDFF3427 /* Pods_swiftuimileagetrackerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swiftuimileagetrackerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		473B4809E87FC6CF6005974E /* Pods-swiftuimileagetracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftuimileagetracker.release.xcconfig"; path = "Target Support Files/Pods-swiftuimileagetracker/Pods-swiftuimileagetracker.release.xcconfig"; sourceTree = "<group>"; };
+		7845F0301EB8C2B02C872839 /* Pods_swiftuimileagetracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swiftuimileagetracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		882E30890D25E8B88179C1BC /* Pods-swiftuimileagetracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftuimileagetracker.debug.xcconfig"; path = "Target Support Files/Pods-swiftuimileagetracker/Pods-swiftuimileagetracker.debug.xcconfig"; sourceTree = "<group>"; };
+		9229EEFAD8EA08819C2DE941 /* Pods-swiftuimileagetrackerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftuimileagetrackerUITests.debug.xcconfig"; path = "Target Support Files/Pods-swiftuimileagetrackerUITests/Pods-swiftuimileagetrackerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A15FB86C16A2A019E30A120F /* Pods_swiftuimileagetrackerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swiftuimileagetrackerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDAC4696A3ABAF28F67F0887 /* Pods-swiftuimileagetrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftuimileagetrackerTests.release.xcconfig"; path = "Target Support Files/Pods-swiftuimileagetrackerTests/Pods-swiftuimileagetrackerTests.release.xcconfig"; sourceTree = "<group>"; };
 		E6E20FE623A809E9008FD313 /* swiftuimileagetracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftuimileagetracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6E20FE923A809E9008FD313 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6E20FEB23A809E9008FD313 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,6 +65,7 @@
 		E6E2100D23A809EB008FD313 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6E2101923A8225E008FD313 /* HealthKitUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitUtilities.swift; sourceTree = "<group>"; };
 		E6E2101C23A82609008FD313 /* swiftuimileagetracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = swiftuimileagetracker.entitlements; sourceTree = "<group>"; };
+		E6E2101D23A8279E008FD313 /* DistanceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E42F5611BE97BEF2DDD83B9 /* Pods_swiftuimileagetracker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				698FBA29BB8DFBA262CFC1B3 /* Pods_swiftuimileagetrackerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,12 +89,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18E51AC9CB4C68A66C84F449 /* Pods_swiftuimileagetrackerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D334AD733215C5676E44332 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				882E30890D25E8B88179C1BC /* Pods-swiftuimileagetracker.debug.xcconfig */,
+				473B4809E87FC6CF6005974E /* Pods-swiftuimileagetracker.release.xcconfig */,
+				235C18DCC790AE4E7265D075 /* Pods-swiftuimileagetrackerTests.debug.xcconfig */,
+				CDAC4696A3ABAF28F67F0887 /* Pods-swiftuimileagetrackerTests.release.xcconfig */,
+				9229EEFAD8EA08819C2DE941 /* Pods-swiftuimileagetrackerUITests.debug.xcconfig */,
+				1D6EA77E912875B4634ACBAC /* Pods-swiftuimileagetrackerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E6E20FDD23A809E9008FD313 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +118,8 @@
 				E6E20FFF23A809EB008FD313 /* swiftuimileagetrackerTests */,
 				E6E2100A23A809EB008FD313 /* swiftuimileagetrackerUITests */,
 				E6E20FE723A809E9008FD313 /* Products */,
+				1D334AD733215C5676E44332 /* Pods */,
+				EF0BCA3DD4C5A104B91A2AC3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,6 +144,7 @@
 				E6E20FF723A809EB008FD313 /* Info.plist */,
 				E6E20FF123A809EB008FD313 /* Preview Content */,
 				E6E2101923A8225E008FD313 /* HealthKitUtilities.swift */,
+				E6E2101D23A8279E008FD313 /* DistanceModel.swift */,
 			);
 			path = swiftuimileagetracker;
 			sourceTree = "<group>";
@@ -141,6 +175,16 @@
 			path = swiftuimileagetrackerUITests;
 			sourceTree = "<group>";
 		};
+		EF0BCA3DD4C5A104B91A2AC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7845F0301EB8C2B02C872839 /* Pods_swiftuimileagetracker.framework */,
+				3944E8901B37AA35BDFF3427 /* Pods_swiftuimileagetrackerTests.framework */,
+				A15FB86C16A2A019E30A120F /* Pods_swiftuimileagetrackerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -148,9 +192,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E6E2101023A809EB008FD313 /* Build configuration list for PBXNativeTarget "swiftuimileagetracker" */;
 			buildPhases = (
+				2195219DCE8F19B1A07D8E99 /* [CP] Check Pods Manifest.lock */,
 				E6E20FE223A809E9008FD313 /* Sources */,
 				E6E20FE323A809E9008FD313 /* Frameworks */,
 				E6E20FE423A809E9008FD313 /* Resources */,
+				3A06BAB97A67840981E46E0C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -165,6 +211,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E6E2101323A809EB008FD313 /* Build configuration list for PBXNativeTarget "swiftuimileagetrackerTests" */;
 			buildPhases = (
+				372E5DA56BB51267E38E182D /* [CP] Check Pods Manifest.lock */,
 				E6E20FF823A809EB008FD313 /* Sources */,
 				E6E20FF923A809EB008FD313 /* Frameworks */,
 				E6E20FFA23A809EB008FD313 /* Resources */,
@@ -183,6 +230,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E6E2101623A809EB008FD313 /* Build configuration list for PBXNativeTarget "swiftuimileagetrackerUITests" */;
 			buildPhases = (
+				AEA1236B159C356183A223CE /* [CP] Check Pods Manifest.lock */,
 				E6E2100323A809EB008FD313 /* Sources */,
 				E6E2100423A809EB008FD313 /* Frameworks */,
 				E6E2100523A809EB008FD313 /* Resources */,
@@ -267,11 +315,103 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2195219DCE8F19B1A07D8E99 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swiftuimileagetracker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		372E5DA56BB51267E38E182D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swiftuimileagetrackerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A06BAB97A67840981E46E0C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swiftuimileagetracker/Pods-swiftuimileagetracker-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftDate/SwiftDate.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftDate.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-swiftuimileagetracker/Pods-swiftuimileagetracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEA1236B159C356183A223CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swiftuimileagetrackerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E6E20FE223A809E9008FD313 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6E2101E23A8279E008FD313 /* DistanceModel.swift in Sources */,
 				E6E2101A23A8225E008FD313 /* HealthKitUtilities.swift in Sources */,
 				E6E20FEA23A809E9008FD313 /* AppDelegate.swift in Sources */,
 				E6E20FEC23A809E9008FD313 /* SceneDelegate.swift in Sources */,
@@ -438,6 +578,7 @@
 		};
 		E6E2101123A809EB008FD313 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 882E30890D25E8B88179C1BC /* Pods-swiftuimileagetracker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = swiftuimileagetracker.entitlements;
@@ -459,6 +600,7 @@
 		};
 		E6E2101223A809EB008FD313 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 473B4809E87FC6CF6005974E /* Pods-swiftuimileagetracker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = swiftuimileagetracker.entitlements;
@@ -480,6 +622,7 @@
 		};
 		E6E2101423A809EB008FD313 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 235C18DCC790AE4E7265D075 /* Pods-swiftuimileagetrackerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +645,7 @@
 		};
 		E6E2101523A809EB008FD313 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDAC4696A3ABAF28F67F0887 /* Pods-swiftuimileagetrackerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -524,6 +668,7 @@
 		};
 		E6E2101723A809EB008FD313 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9229EEFAD8EA08819C2DE941 /* Pods-swiftuimileagetrackerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -544,6 +689,7 @@
 		};
 		E6E2101823A809EB008FD313 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D6EA77E912875B4634ACBAC /* Pods-swiftuimileagetrackerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
